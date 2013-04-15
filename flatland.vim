@@ -11,10 +11,10 @@ let g:colors_name = "PlasticCodeWrap"
 
 hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#26292c guibg=#646769 gui=NONE
 hi Visual ctermfg=NONE ctermbg=none cterm=reverse guifg=NONE guibg=#3c3f42 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
-hi LineNr ctermfg=7 ctermbg=10 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
+hi LineNr ctermfg=152 ctermbg=10 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
 hi VertSplit ctermfg=12 ctermbg=241 cterm=NONE guifg=#636567 guibg=#636567 gui=NONE
 hi MatchParen ctermfg=209 ctermbg=NONE cterm=underline guifg=#fa9a4b guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f8 guibg=#636567 gui=bold
