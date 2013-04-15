@@ -3,8 +3,6 @@
 
 set background=dark
 highlight clear
-highlight normal ctermbg=22
-
 if exists("syntax_on")
   syntax reset
 endif
@@ -16,8 +14,8 @@ hi Visual ctermfg=NONE ctermbg=none cterm=reverse guifg=NONE guibg=#3c3f42 gui=N
 hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
-hi LineNr ctermfg=12 ctermbg=59 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
-hi VertSplit ctermfg=241 ctermbg=241 cterm=NONE guifg=#636567 guibg=#636567 gui=NONE
+hi LineNr ctermfg=7 ctermbg=10 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
+hi VertSplit ctermfg=12 ctermbg=241 cterm=NONE guifg=#636567 guibg=#636567 gui=NONE
 hi MatchParen ctermfg=209 ctermbg=NONE cterm=underline guifg=#fa9a4b guibg=NONE gui=underline
 hi StatusLine ctermfg=231 ctermbg=241 cterm=bold guifg=#f8f8f8 guibg=#636567 gui=bold
 hi StatusLineNC ctermfg=231 ctermbg=241 cterm=NONE guifg=#f8f8f8 guibg=#636567 gui=NONE
@@ -106,3 +104,5 @@ hi cssClassName ctermfg=74 ctermbg=NONE cterm=NONE guifg=#72aaca guibg=NONE gui=
 hi cssValueLength ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b8d977 guibg=NONE gui=NONE
 hi cssCommonAttr ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b7d877 guibg=NONE gui=NONE
 hi cssBraces ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+
+highlight normal ctermbg=NONE cterm=NONE
