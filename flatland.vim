@@ -11,7 +11,7 @@ let g:colors_name = "PlasticCodeWrap"
 
 hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#26292c guibg=#646769 gui=NONE
 hi Visual ctermfg=NONE ctermbg=none cterm=reverse guifg=NONE guibg=#3c3f42 gui=NONE
-hi CursorLine ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
+hi CursorLine ctermfg=white ctermbg=black cterm=underline guifg=NONE guibg=#3b3e40 gui=underline
 hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi LineNr ctermfg=152 ctermbg=10 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
