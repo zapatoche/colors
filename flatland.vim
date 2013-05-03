@@ -7,12 +7,12 @@ if exists("syntax_on")
   syntax reset
 endif
 
-let g:colors_name = "PlasticCodeWrap"
+let g:colors_name = "flatland-yannick"
 
 hi Cursor ctermfg=16 ctermbg=59 cterm=NONE guifg=#26292c guibg=#646769 gui=NONE
 hi Visual ctermfg=NONE ctermbg=none cterm=reverse guifg=NONE guibg=#3c3f42 gui=NONE
-hi CursorLine ctermfg=white ctermbg=black cterm=underline guifg=NONE guibg=#3b3e40 gui=underline
-hi CursorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
+hi CursorLine ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=#3b3e40 gui=underline
+hi CursorColumn ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi ColorColumn ctermfg=NONE ctermbg=59 cterm=NONE guifg=NONE guibg=#3b3e40 gui=NONE
 hi LineNr ctermfg=152 ctermbg=10 cterm=NONE guifg=#8f9192 guibg=#3b3e40 gui=NONE
 hi VertSplit ctermfg=12 ctermbg=241 cterm=NONE guifg=#636567 guibg=#636567 gui=NONE
@@ -44,7 +44,7 @@ hi Function ctermfg=74 ctermbg=NONE cterm=NONE guifg=#72aaca guibg=NONE gui=NONE
 hi Identifier ctermfg=228 ctermbg=NONE cterm=NONE guifg=#f6f080 guibg=NONE gui=NONE
 hi Keyword ctermfg=209 ctermbg=NONE cterm=NONE guifg=#fa9a4b guibg=NONE gui=NONE
 hi Label ctermfg=231 ctermbg=NONE cterm=NONE guifg=#f6f6f6 guibg=NONE gui=NONE
-hi NonText ctermfg=102 ctermbg=59 cterm=NONE guifg=#7a8288 guibg=#313336 gui=NONE
+hi NonText ctermfg=102 ctermbg=NONE cterm=NONE guifg=#7a8288 guibg=#313336 gui=NONE
 hi Number ctermfg=150 ctermbg=NONE cterm=NONE guifg=#b8d977 guibg=NONE gui=NONE
 hi Operator ctermfg=209 ctermbg=NONE cterm=NONE guifg=#fa9a4b guibg=NONE gui=NONE
 hi PreProc ctermfg=209 ctermbg=NONE cterm=NONE guifg=#fa9a4b guibg=NONE gui=NONE
